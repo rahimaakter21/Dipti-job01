@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductActivitityDiptiL404">
+    tools:context=".ProductActivitityDipti_amad_ict_L4_04">
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:listitem="@layout/product_listdiptil404" />
+        tools:listitem="@layout/product_list_dipti_amad_ict_l4_04" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/refreshBtn"

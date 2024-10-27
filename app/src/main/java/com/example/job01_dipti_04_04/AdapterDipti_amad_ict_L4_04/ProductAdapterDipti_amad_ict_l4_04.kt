@@ -1,4 +1,4 @@
-package com.example.job01_dipti_04_04.AdapterDiptiL404
+package com.example.job01_dipti_04_04.AdapterDipti_amad_ict_L4_04
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,10 +7,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.job01_dipti_04_04.ProductDiptil404
+import com.example.job01_dipti_04_04.ProductDipti_amad_ict_l4_04
 import com.example.job01_dipti_04_04.R
 
-class ProductAdapterDiptil404 (private val products: List<ProductDiptil404>): RecyclerView.Adapter<ProductAdapterDiptil404.ProductViewHolder>() {
+class ProductAdapterDipti_amad_ict_l4_04 (private val products: List<ProductDipti_amad_ict_l4_04>): RecyclerView.Adapter<ProductAdapterDipti_amad_ict_l4_04.ProductViewHolder>() {
 
     inner class  ProductViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
 
@@ -20,7 +20,7 @@ class ProductAdapterDiptil404 (private val products: List<ProductDiptil404>): Re
         val productPrice= itemView.findViewById<TextView>(R.id.priceTV)
         val productDescription= itemView.findViewById<TextView>(R.id.descriptionTV)
 
-        fun bind(product: ProductDiptil404){
+        fun bind(product: ProductDipti_amad_ict_l4_04){
 
             productTitle.text = product.title
             productName.text = product.name
@@ -31,7 +31,7 @@ class ProductAdapterDiptil404 (private val products: List<ProductDiptil404>): Re
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.product_listdiptil404,parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.product_list_dipti_amad_ict_l4_04,parent,false)
         return ProductViewHolder(view)
     }
 

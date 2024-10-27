@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityDiptiL404">
+    tools:context=".MainActivityDipti_amad_ict_L4_04">
 
     <TextView
         android:id="@+id/productTV"
